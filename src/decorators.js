@@ -105,9 +105,9 @@ const DefaultDecorators = [
         return {
           border: 0,
           background: 'transparent',
-          color: 'black',
+          color: 'white',
           cursor: 'pointer',
-          padding: 10,
+          padding: 5,
           outline: 0,
           fontSize: 24,
           opacity: active ? 1 : 0.5

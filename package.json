@@ -1,13 +1,54 @@
 {
-  "name": "nuka-carousel",
-  "version": "2.0.3",
-  "description": "Pure React Carousel",
-  "main": "index.js",
+  "_args": [
+    [
+      "nuka-carousel",
+      "/Users/admin/xinpay/app/frontend/h5app/src"
+    ]
+  ],
+  "_from": "nuka-carousel@latest",
+  "_id": "nuka-carousel@2.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/nuka-carousel",
+  "_nodeVersion": "5.4.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nuka-carousel-2.0.3.tgz_1471537762700_0.22201754851266742"
+  },
+  "_npmUser": {
+    "email": "ken_wheeler@me.com",
+    "name": "thekenwheeler"
+  },
+  "_npmVersion": "3.9.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "nuka-carousel",
+    "raw": "nuka-carousel",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nuka-carousel/-/nuka-carousel-2.0.3.tgz",
+  "_shasum": "857d9350e24a62f123bdd200fe71944ebd7e7dc4",
+  "_shrinkwrap": null,
+  "_spec": "nuka-carousel",
+  "_where": "/Users/admin/xinpay/app/frontend/h5app/src",
+  "author": {
+    "name": "Ken Wheeler"
+  },
+  "bugs": {
+    "url": "https://github.com/kenwheeler/nuka-carousel/issues"
+  },
   "dependencies": {
     "exenv": "^1.2.0",
-    "object-assign": "^4.1.0",
-    "kw-react-tween-state": "^0.1.5"
+    "kw-react-tween-state": "^0.1.5",
+    "object-assign": "^4.1.0"
   },
+  "description": "Pure React Carousel",
   "devDependencies": {
     "babel-core": "^5.8.25",
     "babel-eslint": "^4.1.3",
@@ -50,26 +91,39 @@
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.0"
   },
-  "peerDependencies": {
-    "react": "^0.14.8 || ^15.0.1",
-    "react-dom": "^0.14.8 || ^15.0.1"
+  "directories": {},
+  "dist": {
+    "shasum": "857d9350e24a62f123bdd200fe71944ebd7e7dc4",
+    "tarball": "https://registry.npmjs.org/nuka-carousel/-/nuka-carousel-2.0.3.tgz"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kenwheeler/nuka-carousel.git"
-  },
+  "gitHead": "e9c27de5837c90493c8602881fd97593e6f0c790",
+  "homepage": "https://github.com/kenwheeler/nuka-carousel",
   "keywords": [
     "react",
     "carousel",
     "nuka"
   ],
-  "author": "Ken Wheeler",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kenwheeler/nuka-carousel/issues"
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "ken@outlook.com",
+      "name": "thekenwheeler"
+    }
+  ],
+  "name": "nuka-carousel",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": "^0.14.8 || ^15.0.1",
+    "react-dom": "^0.14.8 || ^15.0.1"
   },
-  "homepage": "https://github.com/kenwheeler/nuka-carousel"
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenwheeler/nuka-carousel.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.3"
 }

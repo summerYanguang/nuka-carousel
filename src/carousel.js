@@ -159,7 +159,8 @@ const Carousel = React.createClass({
     this.unbindEvents();
     this.stopAutoplay();
   },
-
+  // nextSlide={self.nextSlide}
+  // previousSlide={self.previousSlide}
   render() {
     var self = this;
     var children = React.Children.count(this.props.children) > 1 ? this.formatChildren(this.props.children) : this.props.children;
@@ -191,8 +192,6 @@ const Carousel = React.createClass({
                   cellSpacing={self.props.cellSpacing}
                   slidesToShow={self.props.slidesToShow}
                   wrapAround={self.props.wrapAround}
-                  nextSlide={self.nextSlide}
-                  previousSlide={self.previousSlide}
                   goToSlide={self.goToSlide} />
               </div>
             )
@@ -646,8 +645,7 @@ const Carousel = React.createClass({
       frame,
       frameWidth,
       frameHeight,
-      slideHeight,
-      toScroll;
+      slideHeight;
 
     slidesToScroll = props.slidesToScroll;
     frame = this.refs.frame;
@@ -679,10 +677,7 @@ const Carousel = React.createClass({
     frameWidth = props.vertical ? frameHeight : frame.offsetWidth;
 
     if (props.slidesToScroll === 'auto') {
-      toScroll = frameWidth / (slideWidth + props.cellSpacing);
-      slidesToScroll = props.slideWidth === 1
-        ? Math.ceil(toScroll)
-        : Math.floor(toScroll);
+      slidesToScroll = Math.floor(frameWidth / (slideWidth + props.cellSpacing));
     }
 
     this.setState({
